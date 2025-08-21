@@ -45,19 +45,16 @@ Convertirme en **Fullstack Developer especializado en IA** siguiendo un plan est
 > API inteligente que recomienda productos usando Machine Learning
 - **Stack**: FastAPI + Scikit-learn + PostgreSQL + Docker
 - **Features**: ML pipeline, API REST, autenticación JWT, documentación Swagger
-- **Deploy**: ✅ [Demo live](https://demo-link.com) | 📊 [API Docs](https://api-docs-link.com)
 
 #### 💼 **[Sistema Gestión Empresarial](./fase-1-backend/backend-py/)**
 > Plataforma completa de inventario con análisis predictivo
 - **Stack**: Flask + SQLAlchemy + Pandas + pytest
 - **Features**: CRUD completo, reportes automáticos, testing 95%, CI/CD
-- **Deploy**: ✅ [Aplicación](https://app-link.com) | 🔗 [GitHub](https://github.com/repo)
 
 #### 🏪 **[Sistema de Citas Barbería](./fase-1-backend/flask/)**
 > Gestión inteligente de turnos con optimización automática
 - **Stack**: Flask + PostgreSQL + Bootstrap + JWT
 - **Features**: Calendario interactivo, notificaciones, reportes
-- **Deploy**: ✅ [Demo](https://barberia-demo.com)
 
 ### 🎨 **FASE 2: Frontend** 
 
@@ -65,7 +62,6 @@ Convertirme en **Fullstack Developer especializado en IA** siguiendo un plan est
 > Aplicación vanilla JS con funciones avanzadas y historial
 - **Stack**: JavaScript ES6+ + CSS3 + Local Storage
 - **Features**: Operaciones complejas, historial, themes, responsive
-- **Estado**: 🔄 En desarrollo
 
 ## 🛠️ Stack Tecnológico Completo
 
