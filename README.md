@@ -1,4 +1,4 @@
-# 🚀 Mi Viaje: De Cero a Fullstack Developer + AI Specialist
+# 🚀 Mi Viaje: Fullstack Developer + AI Specialist
 
 > **18 meses de formación intensiva** | Documentando cada paso del camino  
 > De fundamentos a aplicaciones inteligentes en producción
