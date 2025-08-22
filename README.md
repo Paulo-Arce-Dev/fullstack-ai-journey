@@ -117,6 +117,7 @@ Convertirme en **Fullstack Developer especializado en IA** siguiendo un plan est
 - [Pandas Docs](https://pandas.pydata.org/docs/)
 - [NumPy Docs](https://numpy.org/doc/)
 - [Flask Docs](https://flask.palletsprojects.com/en/stable/)
+- [Aws Docs](https://docs.aws.amazon.com/)
 
 ## ⭐ ¿Te gusta mi progreso?
 
