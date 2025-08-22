@@ -111,6 +111,11 @@ Convertirme en **Fullstack Developer especializado en IA** siguiendo un plan est
 - [React Documentation](https://es.react.dev/)
 - [PostgreSQL Manual](https://www.postgresql.org/docs/)
 - [Git Documentation](https://git-scm.com/doc)
+- [Docker Docs](https://docs.docker.com/)
+- [Zusband Docs](https://zustand.docs.pmnd.rs/getting-started/introduction)
+- [Pandas Docs](https://pandas.pydata.org/docs/)
+- [NumPy Docs](https://numpy.org/doc/)
+- [Flask Docs](https://flask.palletsprojects.com/en/stable/)
 
 ## ⭐ ¿Te gusta mi progreso?
 
