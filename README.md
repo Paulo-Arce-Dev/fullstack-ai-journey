@@ -103,7 +103,8 @@ Convertirme en **Fullstack Developer especializado en IA** siguiendo un plan est
 - 📺 **MoureDev**: Python + Fundamentos Backend 
 - 📚 **Python Crash Course**: Proyectos prácticos
 - 🧠 **DotCSV**: Machine Learning en español
-- ⚛️ **Midudev**: JavaScript moderno + React
+- ⚛️ **Gentleman Programming**: JavaScript moderno + React
+- 💡 **LeetCode**: Lógica de programación
 
 ### **Documentaciones Oficiales**
 - [Python Official Docs](https://docs.python.org/es/)
