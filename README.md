@@ -56,12 +56,18 @@ Mi objetivo es convertirme en **Desarrollador de Software especializado en Intel
 
 ---
 
-## 🛠️ Tecnologías Principales
-- **Frontend:** Flutter, Dart  
-- **Backend:** Python, FastAPI/Flask, PostgreSQL  
-- **IA/Data:** Scikit-learn, Pandas, Numpy, NLP  
-- **Cloud:** Render, AWS, GCP  
-- **Otros:** Git/GitHub, Clean Code, SOLID, Testing
+## 🛠️ Tecnologías y Herramientas
+
+- **Lenguajes:** Dart, Python, SQL.  
+- **Frontend:** Flutter, Widgets, Material Design.  
+- **Backend:** Flask, FastAPI, PostgreSQL, SQLite.  
+- **IA/Data:** Scikit-learn, Pandas, Numpy, NLTK, spaCy.  
+- **Arquitectura y Diseño:** MVVM, Clean Architecture, Patrones de Diseño (Singleton, Factory, Repository, Observer).  
+- **Estado en Flutter:** setState, Provider, Riverpod.  
+- **Testing:** pytest, unittest, Flutter Test.  
+- **Cloud & Deploy:** Render, AWS, GCP, Docker (básico).  
+- **Herramientas:** Git, GitHub, UML (draw.io), VS Code.  
+- **Buenas Prácticas:** Clean Code, SOLID, KISS, DRY.  
 
 ## ⭐ ¿Te gusta mi progreso?
 
