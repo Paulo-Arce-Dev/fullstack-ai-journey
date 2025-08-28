@@ -4,7 +4,7 @@ Bienvenido a mi repositorio de aprendizaje donde documento mi camino de aprendiz
 
 ## 🎯 Mi Misión
 
-Solucionar problemas de negocios, proyectos a través del desarrollo de software y la inteligencia artificial.
+Solucionar problemas de aplicaciones a través del desarrollo de software y la inteligencia artificial.
 
 ## 📅 Hitos del Progreso
 
