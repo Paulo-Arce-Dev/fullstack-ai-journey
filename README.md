@@ -32,9 +32,7 @@ Esta fase consolida todo el conocimiento en un perfil listo para el mercado labo
 - **Despliegue (Deployment)**: Llevando mis proyectos a la nube para que sean accesibles y funcionales.
 - **Preparación para Entrevistas**: Practicando algoritmos y construyendo mi portafolio profesional para demostrar mis habilidades.
 
----
-
-### 📁 Estructura del Repositorio
+## 📁 Estructura del Repositorio
 
 La organización es fundamental para el aprendizaje y para mostrar un proceso de trabajo metódico.
 
