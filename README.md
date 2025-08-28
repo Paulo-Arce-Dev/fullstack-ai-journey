@@ -1,75 +1,71 @@
 # 🚀 Roadmap de Desarrollo: Software + IA
 
-Bienvenido a mi repositorio de aprendizaje donde documento mi progreso, proyectos y aprendizajes en el camino hacia crear **aplicaciones inteligentes**.  
+Bienvenido a mi repositorio de aprendizaje donde documento mi camino de aprendizaje autodidacta para convertirme en un **desarrollador de software con especialización en Inteligencia Artificial**.  
 
 ## 🎯 Mi Misión
 
-Mi objetivo es convertirme en **Desarrollador de Software especializado en Inteligencia Artificial** para aportar **valor** con soluciones robustas en aplicaciones multiplataforma.
+Solucionar problemas de negocios, proyectos a través del desarrollo de software y la inteligencia artificial.
 
-## 📅 Plan de Estudios
+## 📅 Hitos del Progreso
 
-### 🔹 Fundamentos con Dart + Flutter
-**Objetivo:** pensar como programador, escribir código limpio, primeras apps útiles.  
-- 📚 Estudio: Dart (POO, colecciones, excepciones), Flutter (widgets, layouts, estado básico), Git/GitHub, Clean Code básico.  
-- 💡 Proyectos:
-  - ToDo App con categorías.  
-  - Agenda de turnos básica.  
+Este proceso está dividido en fases que construyen una base sólida, añaden un diferencial de mercado y, finalmente, preparan mi perfil para la empleabilidad.
 
-### 🔹 Flutter intermedio + Apps de negocios
-**Objetivo:** apps completas con arquitectura básica.  
-- 📚 Estudio: formularios, validaciones, listas dinámicas, filtros, Provider/Riverpod, MVVM, principios SOLID.  
-- 💡 Proyectos:
-  - Sistema de stock con alertas.  
-  - App de delivery.  
-  - Control de caja diario.  
+### Fase 1: Creando la Base (Fundamentos)
 
-### 🔹 Python Backend + Flutter
-**Objetivo:** conectar apps Flutter con backend real.  
-- 📚 Estudio: Python (POO, archivos, librerías), Flask/FastAPI, PostgreSQL, Pandas/Numpy.  
-- 💡 Proyectos:
-  - App de ventas con backend Python.  
-  - Sistema de predicción simple de ventas.  
+En esta etapa, me enfoco en dominar la lógica de programación y las herramientas esenciales.
 
-### 🔹 Inteligencia Artificial aplicada
-**Objetivo:** usar IA para resolver problemas reales.  
-- 📚 Estudio: Machine Learning con scikit-learn, NLP básico (chatbots), conexión IA-API-Flutter.  
-- 💡 Proyectos:
-  - Chatbot de atención al cliente.  
-  - Sistema de recomendaciones.  
-  - Segmentación de clientes por historial.  
+- **Python**: De la teoría a la práctica. Aprendiendo los conceptos (variables, bucles, funciones, POO) y aplicándolos en ejercicios y proyectos simples.
+- **JavaScript (Vanilla)**: Entendiendo la web. Construyendo aplicaciones interactivas sin frameworks para comprender los fundamentos del desarrollo web.
 
-### 🔹 Arquitectura + Cloud
-**Objetivo:** dar el salto a prácticas profesionales.  
-- 📚 Estudio: Patrones de diseño, Clean Architecture, Testing (Flutter/Python), Cloud (AWS/GCP/Render), seguridad (auth, JWT).  
-- 💡 Proyecto:
-  - Sistema integral de gestión (clientes + pedidos + pagos).  
-  - Backend en Python + PostgreSQL.  
-  - Deploy en Render/AWS.  
+### Fase 2: Creando el Diferencial (Especialización)
 
-### 🔹 Consolidación + Portfolio
-**Objetivo:** demostrar nivel profesional y capacidad de integrar software + IA.  
-- 📚 Estudio: Optimización, documentación, UML, preparación para entrevistas.  
-- 💡 Proyectos finales:
-  - App SaaS (ej: CRM, gestor de turnos o facturación).  
-  - Proyecto personal con IA (visión por computadora, predicciones, chatbot avanzado).  
-  - Portfolio final con 6-8 proyectos reales + 2 con IA.  
+Aquí, el objetivo es construir un perfil que se destaque en el mercado.
+
+- **Backend con Python**: Creando APIs y conectándolas a bases de datos para construir aplicaciones completas de principio a fin.
+- **IA Aplicada**: Aprendiendo a usar librerías y APIs de IA para resolver problemas de negocio reales, como la predicción de ventas o la automatización de tareas.
+
+### Fase 3: Profesionalización (Empleabilidad)
+
+Esta fase consolida todo el conocimiento en un perfil listo para el mercado laboral.
+
+- **Arquitectura de Software**: Implementando patrones de diseño y arquitecturas limpias para asegurar que mi código sea mantenible y escalable.
+- **Despliegue (Deployment)**: Llevando mis proyectos a la nube para que sean accesibles y funcionales.
+- **Preparación para Entrevistas**: Practicando algoritmos y construyendo mi portafolio profesional para demostrar mis habilidades.
+
+---
+
+### 📁 Estructura del Repositorio
+
+La organización es fundamental para el aprendizaje y para mostrar un proceso de trabajo metódico.
+
+  - ***01-Fundamentos***: Contiene todo desde los conceptos básicos hasta los primeros proyectos.
+  - ***02-Especializacion***: Muestra mi progreso en el desarrollo de backend y la aplicación de la IA.
+  - ***03-Profesionalizacion***: Incluye la práctica de arquitectura, el deployment y la preparación final.
+  - ***Proyectos de Portafolio***: Aquí se listan mis proyectos más grandes y complejos, cada uno en su propio repositorio para una mejor presentación.
 
 ---
 
 ## 🛠️ Tecnologías y Herramientas
 
-- **Lenguajes:** Dart, Python, SQL.  
-- **Frontend:** Flutter, Widgets, Material Design.  
-- **Backend:** Flask, FastAPI, PostgreSQL, SQLite.  
-- **IA/Data:** Scikit-learn, Pandas, Numpy, NLTK, spaCy.  
-- **Arquitectura y Diseño:** MVVM, Clean Architecture, Patrones de Diseño (Singleton, Factory, Repository, Observer).  
-- **Estado en Flutter:** setState, Provider, Riverpod.  
-- **Testing:** pytest, unittest, Flutter Test.  
-- **Cloud & Deploy:** Render, AWS, GCP, Docker (básico).  
-- **Herramientas:** Git, GitHub, UML (draw.io), VS Code.  
-- **Buenas Prácticas:** Clean Code, SOLID, KISS, DRY.  
+- **Lenguajes:** Python, Javascript, SQL.  
+- **Frontend:** HTML, CSS, Javascript, React.  
+- **Backend:** Flask, FastAPI, SQL.
+- **Base de Datos:** PostgreSQL, SQLite. 
+- **IA & Ciencia de Datos:** Scikit-learn, Pandas, Numpy, APIs de IA (OpenAI, Google AI).  
+- **Testing:** pytest, unittest, Jest.   
+- **Herramientas:** Git, GitHub, VS Code.
+- **Despliegue (Deployment):** Render, Vercel, Netlify.
+- **Conceptos y Buenas Prácticas:**
+    * Lógica de programación.
+    * Programación Orientada a Objetos (POO).
+    * Clean Architecture.
+    * Principios SOLID.
+    * Patrones de Diseño (Singleton, Factory, Repository, Observer).
+    * Clean Code.
+    * KISS.
+    * DRY.
 
-## ⭐ ¿Te gusta mi progreso?
+## ¿Te gusta mi progreso?
 
 Si este repositorio te inspira o te parece útil:
 - ⭐ **Dale una estrella** al repo
