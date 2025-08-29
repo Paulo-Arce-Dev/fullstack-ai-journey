@@ -15,3 +15,9 @@ info_personal = {
 
 # Declarando una variable en múltiples líneas
 apellido, provincia,  = 'Arce', 'Córdoba';
+
+# Constantes
+# su valor permanece igual durante toda la vida de un programa 
+# es recomendar escribir su nombre en mayúscula
+
+MAX_CONEXIONES = 5000
