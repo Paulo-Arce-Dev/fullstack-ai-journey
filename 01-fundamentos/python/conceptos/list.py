@@ -44,6 +44,33 @@ print(motos_2)
 del motos_2[0]
 print(motos_2)
 
-# último elemento de una lista -> pop()
-motos_2.pop()
+# último elemento de una lista
+
+# pop() elimina el último elemento de la lista, pero permite trabajar con ese elemento después de eliminarlo.
+moto_rota = motos_2.pop()
 print(motos_2)
+print(moto_rota)
+
+ultima_moto = motos_2.pop()
+print(f"la última moto que tuve fue una {ultima_moto}")
+
+# pop() también elimina un elemento en cualquier posición
+primera_moto = motos_2.pop(0)
+print(f"Mi primera moto fue {primera_moto}")
+
+# NOTA: cuando desee eliminar un elemento de una lista y no utilizar ese elemento de ninguna manera, utilice la instrucción "del"
+# Si desea utilizar un elemento mientras lo elimina, utilice el método pop().
+
+# eliminar un elemento por valor
+
+# A veces no sabrás la posición del valor que deseas eliminar de una lista. 
+# Si solo conoce el valor del elemento que desea eliminar, puede utilizar el método remove(). 
+# El método remove() elimina solo la primera aparición del valor que especifica.
+print(motos)
+motos.remove('Ducati')
+print(motos)
+
+demasiado_caro = 'KTM'
+motos.remove(demasiado_caro)
+print(motos)
+print(f"\nUna {demasiado_caro.title()} es demasiado cara para mi en este momento.")
