@@ -36,9 +36,24 @@ Luego use su lista para imprimir un mensaje para cada persona, invitándolas a c
 """
 
 # 3-4
-lista_invitados_cenar = ['Warren Buffet', 'Messi', 'Elon Musk']
-invitado_messi = 'Messi'
-lista_invitados_cenar.remove(invitado_messi)
-print(lista_invitados_cenar)
-print(f"Me dirigo a {invitado_messi} para invitarlo a una cena que recordará como el espacio donde pude ser")
+lista_invitados_cenar = ['Messi', 'Warren Buffet','Elon Musk']
+invitado_1 = lista_invitados_cenar[0]
+print(f"Me dirigo a {invitado_1} para invitarlo a una cena que recordará como el espacio donde pude ser")
 
+invitado_2 = lista_invitados_cenar[1]
+print(f"Me dirigo a {invitado_2} para invitarlo a una cena que recordará como el espacio donde pude ser")
+
+invitado_3 = lista_invitados_cenar[2]
+print(f"Me dirigo a {invitado_3} para invitarlo a una cena que recordará como el espacio donde pude ser")
+
+print(f"{invitado_3} no podrá asistir a la cena por motivos de agenda.")
+
+# 3-5
+eliminar_invitado_ausente = lista_invitados_cenar.remove(invitado_3)
+invitado_nuevo = 'Zenón de Citio'
+lista_invitados_cenar.append(invitado_nuevo)
+# print(lista_invitados_cenar)
+
+print(f"Me dirigo a {invitado_1} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {invitado_2} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {invitado_nuevo} para invitarlo a una cena que recordará como el espacio donde pude ser")
