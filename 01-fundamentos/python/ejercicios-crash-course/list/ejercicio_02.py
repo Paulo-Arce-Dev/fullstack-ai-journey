@@ -38,6 +38,8 @@ Luego use su lista para imprimir un mensaje para cada persona, invitándolas a c
 """
 
 # 3-4
+
+print("########## Ejercicio 3-4 ##########")
 lista_invitados_cenar = ['Messi', 'Warren Buffet','Elon Musk']
 invitado_1 = lista_invitados_cenar[0]
 print(f"Me dirigo a {invitado_1} para invitarlo a una cena que recordará como el espacio donde pude ser")
@@ -51,6 +53,7 @@ print(f"Me dirigo a {invitado_3} para invitarlo a una cena que recordará como e
 print(f"{invitado_3} no podrá asistir a la cena por motivos de agenda.")
 
 # 3-5
+print("########## Ejercicio 3-5 ##########")
 eliminar_invitado_ausente = lista_invitados_cenar.remove(invitado_3)
 invitado_nuevo_1 = 'Zenón de Citio'
 lista_invitados_cenar.append(invitado_nuevo_1)
@@ -62,11 +65,10 @@ print(f"Me dirigo a {invitado_nuevo_1} para invitarlo a una cena que recordará 
 print("He encontrado una mesa de mayor tamaño y lanzaré 3 invitaciones nuevas")
 
 # 3-6
+print("########## Ejercicio 3-6 ##########")
 lista_invitados_cenar.insert(0, 'Bill Gates')
 lista_invitados_cenar.insert(2, 'Jeff Bezos')
 lista_invitados_cenar.append('Vladímir Putin')
-
-print("#################################")
 
 print(f"Me dirigo a {lista_invitados_cenar[0]} para invitarlo a una cena que recordará como el espacio donde pude ser")
 print(f"Me dirigo a {lista_invitados_cenar[1]} para invitarlo a una cena que recordará como el espacio donde pude ser")
@@ -78,6 +80,8 @@ print(f"Me dirigo a {lista_invitados_cenar[5]} para invitarlo a una cena que rec
 print("Debido a demoras en el envío de la nueva mesa, la lista de invitados se ve reducida a solo 2 personas para cenar.")
 
 # 3-7
+
+print("########## Ejercicio 3-7 ##########")
 
 # eliminando y avisando a invitados
 primer_eliminado_lista = lista_invitados_cenar.pop(5)
