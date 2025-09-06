@@ -29,9 +29,11 @@ Luego use su lista para imprimir un mensaje para cada persona, invitándolas a c
 3-7. Lista de invitados cada vez más reducida: Acaba de descubrir que su nueva mesa no llegará a tiempo para la cena y ahora tiene espacio para solo dos invitados.
   - Comience su programa con el Ejercicio 3-6. Agregue una nueva línea que imprima un mensaje que indique que solo puede invitar a dos personas a cenar.
   
-  - Utilice pop() para eliminar invitados de su lista uno a la vez hastra que solo queden dos nombres de su lista. Cada vez que saque un nombre de su lista, imprima su mensaje para esa persona haciéndole saber que lamenta no poder invitarla a cenar.
+  - Utilice pop() para eliminar invitados de su lista uno a la vez hasta que solo queden dos nombres de su lista. Cada vez que saque un nombre de su lista, imprima su mensaje para esa persona haciéndole saber que lamenta no poder invitarla a cenar.
   
-  - Imprima un mensaje para cada una de las dos personas que aún están en su lista, de modo que tenga una lista vacía.
+  - Imprima un mensaje para cada una de las dos personas que aún están en su lista, informándoles que todavía están invitadas.
+  
+  - Utilice "del" para eliminar los dos últimos nombres de su lista, de modo que tenga una lista vacía.
     Imprima su lista para asegurarse de tener una lista vacía al final de su programa. 
 """
 
@@ -50,10 +52,53 @@ print(f"{invitado_3} no podrá asistir a la cena por motivos de agenda.")
 
 # 3-5
 eliminar_invitado_ausente = lista_invitados_cenar.remove(invitado_3)
-invitado_nuevo = 'Zenón de Citio'
-lista_invitados_cenar.append(invitado_nuevo)
-# print(lista_invitados_cenar)
+invitado_nuevo_1 = 'Zenón de Citio'
+lista_invitados_cenar.append(invitado_nuevo_1)
 
 print(f"Me dirigo a {invitado_1} para invitarlo a una cena que recordará como el espacio donde pude ser")
 print(f"Me dirigo a {invitado_2} para invitarlo a una cena que recordará como el espacio donde pude ser")
-print(f"Me dirigo a {invitado_nuevo} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {invitado_nuevo_1} para invitarlo a una cena que recordará como el espacio donde pude ser")
+
+print("He encontrado una mesa de mayor tamaño y lanzaré 3 invitaciones nuevas")
+
+# 3-6
+lista_invitados_cenar.insert(0, 'Bill Gates')
+lista_invitados_cenar.insert(2, 'Jeff Bezos')
+lista_invitados_cenar.append('Vladímir Putin')
+
+print("#################################")
+
+print(f"Me dirigo a {lista_invitados_cenar[0]} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {lista_invitados_cenar[1]} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {lista_invitados_cenar[2]} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {lista_invitados_cenar[3]} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {lista_invitados_cenar[4]} para invitarlo a una cena que recordará como el espacio donde pude ser")
+print(f"Me dirigo a {lista_invitados_cenar[5]} para invitarlo a una cena que recordará como el espacio donde pude ser")
+
+print("Debido a demoras en el envío de la nueva mesa, la lista de invitados se ve reducida a solo 2 personas para cenar.")
+
+# 3-7
+
+# eliminando y avisando a invitados
+primer_eliminado_lista = lista_invitados_cenar.pop(5)
+print(f"Lamentamos tener que cancelar la invitación a {primer_eliminado_lista} a la cena.")
+
+segundo_eliminado_lista = lista_invitados_cenar.pop(4)
+print(f"Lamentamos tener que cancelar la invitación a {segundo_eliminado_lista} a la cena.")
+
+tercer_eliminado_lista = lista_invitados_cenar.pop(3)
+print(f"Lamentamos tener que cancelar la invitación a {tercer_eliminado_lista} a la cena.")
+
+cuarto_eliminado_lista = lista_invitados_cenar.pop(2)
+print(f"Lamentamos tener que cancelar la invitación a {cuarto_eliminado_lista} a la cena.")
+
+# recordando la cena a los dos invitados
+print(f"{lista_invitados_cenar[0]} le recordamos que está invitado a una cena inolvidable.")
+print(f"{lista_invitados_cenar[1]} le recordamos que está invitado a una cena inolvidable.")
+
+
+# eliminando los últimos dos invitados
+del lista_invitados_cenar[0]
+del lista_invitados_cenar[0]
+
+print(lista_invitados_cenar)
