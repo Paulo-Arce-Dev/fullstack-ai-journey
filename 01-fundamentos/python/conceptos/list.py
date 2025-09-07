@@ -75,3 +75,17 @@ print(f"\nUna {demasiado_caro.title()} es demasiado cara para mi en este momento
 
 
 # ORDENAR LISTAS
+# ordenar alfabéticamente
+print("\n")
+marcas_autos = ['bmw','audi','toyota','mercedes benz', 'ford', 'ferrari', 'chevrolet']
+marcas_autos.sort()
+print(marcas_autos)
+
+# ordenar alfabéticamente pero a la inversa
+marcas_autos.sort(reverse = True)
+print(marcas_autos)
+
+# Ordenar una lista temporalmente con sorted()
+print(f"\nLista Original: {marcas_autos}")
+print(f"\nLista Ordenada: {sorted(marcas_autos)}")
+print(f"\nNuevamente Lista Original: {marcas_autos}")
