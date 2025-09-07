@@ -3,20 +3,20 @@
 bicicletas = ['trek', 'redline', 'cannondale']
 print(bicicletas)
 
-# acceder a elementos de lisas
+# ACCEDER A ELEMENTOS DE LISTAS
 print(bicicletas[0])
 print(bicicletas[0].title())
 print(bicicletas[1])
 print(bicicletas[2])
 
-# último elemento de una lista
+# ÚLTIMO ELEMENTO DE UNA LISTA
 print(bicicletas[-1])
 
 mensaje = f"Mi primera bicicleta fue una {bicicletas[0].title()}"
 print(mensaje)
 
 
-# modificar elementos de una lista
+# MODIFICAR ELEMENTOS DE UNA LISTA
 motos = ['Honda', 'Yamaha','Suzuki', 'KTM']
 print(motos)
 
@@ -24,7 +24,7 @@ print(motos)
 motos[0] = 'Ducati'
 print(motos)
 
-# agregar elemento al final de una lista
+# AGREGAR ELEMENTO AL FINAL DE UNA LISTA
 motos.append('Kawasaki')
 print(motos)
 
@@ -34,18 +34,16 @@ motos_2.append('Kawasaki')
 motos_2.append('Suzuki')
 print(motos_2)
 
-# agregar elemento a lista (cualquier orden)
+# AGREGAR ELEMENTO A LISTA (cualquier orden)
 motos_2.insert(0, 'Ducati')
 print(motos_2)
 
-# eliminar elemento de una lista
-
+# ELIMINAR ELEMENTO DE UNA LISTA
 # si conocemos la posición del elemento
 del motos_2[0]
 print(motos_2)
 
-# último elemento de una lista
-
+# ÚLTIMO ELEMENTO DE UNA LISTA
 # pop() elimina el último elemento de la lista, pero permite trabajar con ese elemento después de eliminarlo.
 moto_rota = motos_2.pop()
 print(motos_2)
@@ -61,8 +59,8 @@ print(f"Mi primera moto fue {primera_moto}")
 # NOTA: cuando desee eliminar un elemento de una lista y no utilizar ese elemento de ninguna manera, utilice la instrucción "del"
 # Si desea utilizar un elemento mientras lo elimina, utilice el método pop().
 
-# eliminar un elemento por valor
 
+# ELIMINAR UN ELEMENTO POR VALOR
 # A veces no sabrás la posición del valor que deseas eliminar de una lista. 
 # Si solo conoce el valor del elemento que desea eliminar, puede utilizar el método remove(). 
 # El método remove() elimina solo la primera aparición del valor que especifica.
@@ -74,3 +72,6 @@ demasiado_caro = 'KTM'
 motos.remove(demasiado_caro)
 print(motos)
 print(f"\nUna {demasiado_caro.title()} es demasiado cara para mi en este momento.")
+
+
+# ORDENAR LISTAS
