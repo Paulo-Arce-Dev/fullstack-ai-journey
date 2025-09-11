@@ -1,7 +1,5 @@
 // Cajero automático
 
-// pedir al usuario: monto de dinero a gastar
-// pedir al usuario: cuanto desea retirar
 let montoTotal = parseFloat(
   prompt("Ingrese el monto total de su dinero en su cuenta")
 );
