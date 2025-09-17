@@ -81,13 +81,25 @@ porcentaje_metros_descubiertos = 100 - porcentaje_metros_cubiertos
 print(f"El procentaje de metros descubiertos es de: {round(porcentaje_metros_descubiertos, 2)} %")
 """
 
-# ejercicio 8
 
+# ejercicio 8
+"""  
 descuento = 15 / 100
 
 monto_total = float(input("Ingrese el monto toal de su compra: "))
 total_pagar = monto_total - (monto_total * descuento)
 
 print(f"El monto total a pagar es de: ${total_pagar} ARS con un 15% de descuento")
- 
+"""
 
+
+# ejercicio 9
+mujeres = int(input("Ingrese la cantidad de mujeres que hay en la carrera: "))
+hombres = int(input("Ingrese la cantidad de hombres que hay en la carrera: "))
+
+total_estudiantes = mujeres + hombres
+
+porcentaje_mujeres = (mujeres * 100) / total_estudiantes
+porcentaje_hombres = (hombres * 100) / total_estudiantes
+
+print(f"En la carrera de ciencias exactas hay {round(porcentaje_mujeres, 2)}% de mujeres y {round(porcentaje_hombres, 2)}% de hombres.")
