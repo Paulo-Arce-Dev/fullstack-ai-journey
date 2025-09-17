@@ -69,6 +69,7 @@ print(f"Su promedio es de: {round(promedio_notas, 2)}")
 
 
 # ejercicio 7 
+""" 
 metros_cuadrados_totales = float(input("Ingresa los metros cuadrados totales del predio: "))
 metros_cuadrados_cubiertos = float(input("Ingresa los metros cuadrados cubiertos del predio: "))
 
@@ -78,5 +79,16 @@ print(f"El procentaje de metros cubiertos es de: {round(porcentaje_metros_cubier
 
 porcentaje_metros_descubiertos = 100 - porcentaje_metros_cubiertos
 print(f"El procentaje de metros descubiertos es de: {round(porcentaje_metros_descubiertos, 2)} %")
+"""
 
+# ejercicio 8
 
+# cadena de delivery
+# 15% descuento limitado en todas las compras
+
+descuento = 15 / 100
+
+monto_total = float(input("Ingrese el monto toal de su compra: "))
+total_pagar = monto_total - (monto_total * descuento)
+
+print(f"El monto total a pagar es de: ${total_pagar} ARS con un 15% de descuento")
