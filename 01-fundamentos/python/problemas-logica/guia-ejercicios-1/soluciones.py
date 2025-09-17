@@ -1,4 +1,4 @@
-# ejercicio 1 
+# Ejercicio 1 
 
 def calculadora_suma (num1, num2):
   return num1 + num2
@@ -6,28 +6,28 @@ def calculadora_suma (num1, num2):
 print(f"El resultado de la suma es {calculadora_suma(34, 56)}")
 
 
-# ejercicio 2
-"""  
+
+# Ejercicio 2
+  
 num_usuario = int(input("Ingrese un número para elevarlo al cubo "))
 
 resultado = (num_usuario * num_usuario) * num_usuario
 print(f"El número {num_usuario} elevado al cubo es: {resultado}")
-"""
 
-# ejercicio 3
-"""  
+
+
+# Ejercicio 3
+ 
 ano_actual = int(input("Ingrese el año actual en número "))
 ano_fecha_nacimiento = int(input("Ingrese el año de su nacimiento "))
 
 edad_usuario = ano_actual - ano_fecha_nacimiento
 print(f"Su edad es {edad_usuario} años")
-"""
 
 
-# ejercicio 4
 
-# teniendo en cuenta que tiempo = distancia / velocidad
-"""  
+# Ejercicio 4
+ 
 distancia_entre_ciudades = float(input("Ingrese la distancia entre dos ciudades en kilometros: "))
 velocidad_promedio_vehiculo = float(input("Ingrese la velocidad promedio de su vehículo en Km/H: "))
 
@@ -39,12 +39,11 @@ if (tiempo_formateado < 1):
   print(f"El tiempo estimado de llegada es de: {tiempo_en_minutos} minutos")
 else:
   print(f"El tiempo estimado de llegada es de: {tiempo_formateado} horas")
-"""
+
 
   
-# ejercicio 5
-
-"""  
+# Ejercicio 5
+  
 # sueldo fijo en ARS
 SUELDO = 15000
 
@@ -55,21 +54,22 @@ total_facturado = int(input("Ingrese el total facturado del empleado: "))
 total_a_pagar = (total_facturado * COMISION) + SUELDO
 
 print(f"El sueldo total a pagar al empleado es de: {total_a_pagar} ARS")
-"""
 
-# ejercicio 6
-"""  
+
+
+# Ejercicio 6
+ 
 nota_uno = int(input("Ingrese una nota de su exámen: "))
 nota_dos = int(input("Ingrese una segunda nota de su exámen: "))
 nota_tres = int(input("Ingrese una tercera nota de su exámen: "))
 
 promedio_notas = (nota_uno + nota_dos + nota_tres) / 3
 print(f"Su promedio es de: {round(promedio_notas, 2)}")
-"""
 
 
-# ejercicio 7 
-""" 
+
+# Ejercicio 7 
+
 metros_cuadrados_totales = float(input("Ingresa los metros cuadrados totales del predio: "))
 metros_cuadrados_cubiertos = float(input("Ingresa los metros cuadrados cubiertos del predio: "))
 
@@ -79,21 +79,22 @@ print(f"El procentaje de metros cubiertos es de: {round(porcentaje_metros_cubier
 
 porcentaje_metros_descubiertos = 100 - porcentaje_metros_cubiertos
 print(f"El procentaje de metros descubiertos es de: {round(porcentaje_metros_descubiertos, 2)} %")
-"""
 
 
-# ejercicio 8
-"""  
+
+# Ejercicio 8
+ 
 descuento = 15 / 100
 
 monto_total = float(input("Ingrese el monto toal de su compra: "))
 total_pagar = monto_total - (monto_total * descuento)
 
 print(f"El monto total a pagar es de: ${total_pagar} ARS con un 15% de descuento")
-"""
 
 
-# ejercicio 9
+
+# Ejercicio 9
+  
 mujeres = int(input("Ingrese la cantidad de mujeres que hay en la carrera: "))
 hombres = int(input("Ingrese la cantidad de hombres que hay en la carrera: "))
 
@@ -103,3 +104,20 @@ porcentaje_mujeres = (mujeres * 100) / total_estudiantes
 porcentaje_hombres = (hombres * 100) / total_estudiantes
 
 print(f"En la carrera de ciencias exactas hay {round(porcentaje_mujeres, 2)}% de mujeres y {round(porcentaje_hombres, 2)}% de hombres.")
+
+
+
+# Ejercicio 10
+
+numero_uno = int(input("Ingrese su primer número: "))
+numero_dos = int(input("Ingrese su segundo número: "))
+
+suma = numero_uno + numero_dos
+resta = numero_uno - numero_dos
+multiplicacion = numero_uno * numero_dos
+division = numero_uno / numero_dos
+
+print(f"El resultado de su suma es: {suma}")
+print(f"El resultado de su resta es: {resta}")
+print(f"El resultado de su multiplicación es: {multiplicacion}")
+print(f"El resultado de su división es: {division}")
