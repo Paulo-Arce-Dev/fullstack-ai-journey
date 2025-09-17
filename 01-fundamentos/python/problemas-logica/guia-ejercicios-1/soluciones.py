@@ -83,12 +83,11 @@ print(f"El procentaje de metros descubiertos es de: {round(porcentaje_metros_des
 
 # ejercicio 8
 
-# cadena de delivery
-# 15% descuento limitado en todas las compras
-
 descuento = 15 / 100
 
 monto_total = float(input("Ingrese el monto toal de su compra: "))
 total_pagar = monto_total - (monto_total * descuento)
 
 print(f"El monto total a pagar es de: ${total_pagar} ARS con un 15% de descuento")
+ 
+
